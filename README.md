@@ -1,2 +1,2 @@
-# bit-randoms
-Different UI components built by the Enlear team
+# Bit Randoms
+Different UI components built by the Enlear Team
