@@ -2,10 +2,16 @@
 
 {
     "ui/table": {
+        "scope": "enlear.randoms",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "enlear.randoms/ui/table"
+    },
+    "ui/timeline": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "enlear.randoms/ui/table"
+        "rootDir": "enlear.randoms/ui/timeline"
     },
     "version": "1.0.46"
 }
