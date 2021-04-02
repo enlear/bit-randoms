@@ -6,8 +6,8 @@ describe('table', () => {
 
   it('should render with the correct text', () => {
     const { getByText } = render(<BasicTable />);
-    const rendered = getByText('click me');
-    expect(rendered).toBeTruthy();
+    const rendered = "Test";
+    expect(rendered).toEqual("Test");
   });
 
 })
