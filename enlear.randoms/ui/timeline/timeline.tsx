@@ -20,7 +20,7 @@ export const Timeline = ({ items, children, ...rest }: TimelineProps) => {
             <div className="middle-line"></div>
 
             { items.map((item, index) => (
-                <div key={index} className="box box-top">
+                <div key={index} className={`box ${index%2 == 0? 'box-top': 'box-bottom'}`}>
                     <div className="date">
                         <p>{item.day}</p>
                         <p>{item.month}</p>
