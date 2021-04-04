@@ -1,7 +1,6 @@
 importers:
   .:
     dependencies:
-      '@types/react-table': registry.npmjs.org/@types/react-table/7.0.29
       '@types/styled-components': registry.npmjs.org/@types/styled-components/5.1.9
       core-js: registry.npmjs.org/core-js/3.8.3
       namor: registry.npmjs.org/namor/2.0.2
@@ -16,6 +15,7 @@ importers:
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/react': registry.npmjs.org/@types/react/16.9.43
       '@types/react-router-dom': registry.npmjs.org/@types/react-router-dom/5.1.7
+      '@types/react-table': registry.npmjs.org/@types/react-table/7.0.29
     specifiers:
       '@babel/runtime': 7.12.18
       '@testing-library/react': 11.2.6
@@ -401,7 +401,7 @@ packages:
   registry.npmjs.org/@types/react-table/7.0.29:
     dependencies:
       '@types/react': registry.npmjs.org/@types/react/16.9.43
-    dev: false
+    dev: true
     name: '@types/react-table'
     resolution:
       integrity: sha512-RCGVKGlTDv3jbj37WJ5HhN3sPb0W/2rqlvyGUtvawnnyrxgI2BGgASvU93rq2jwanVp5J9l1NYAeiGlNhdaBGw==

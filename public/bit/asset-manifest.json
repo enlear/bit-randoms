@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.a9d2549e.chunk.js",
+    "main.js": "/static/js/main.869a9bcb.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.22d2edff.js",
-    "static/css/2.7a33fd9f.chunk.css": "/static/css/2.7a33fd9f.chunk.css",
-    "static/js/2.62f14523.chunk.js": "/static/js/2.62f14523.chunk.js",
+    "static/css/2.210da38d.chunk.css": "/static/css/2.210da38d.chunk.css",
+    "static/js/2.da2f6632.chunk.js": "/static/js/2.da2f6632.chunk.js",
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.7a33fd9f.chunk.css.map": "/static/css/2.7a33fd9f.chunk.css.map",
-    "static/js/2.62f14523.chunk.js.LICENSE.txt": "/static/js/2.62f14523.chunk.js.LICENSE.txt",
-    "workbox-274d2669.js": "/workbox-274d2669.js"
+    "static/css/2.210da38d.chunk.css.map": "/static/css/2.210da38d.chunk.css.map",
+    "static/js/2.da2f6632.chunk.js.LICENSE.txt": "/static/js/2.da2f6632.chunk.js.LICENSE.txt",
+    "workbox-dcbad08c.js": "/workbox-dcbad08c.js"
   },
   "entrypoints": [
     "static/js/runtime-main.22d2edff.js",
-    "static/css/2.7a33fd9f.chunk.css",
-    "static/js/2.62f14523.chunk.js",
-    "static/js/main.a9d2549e.chunk.js"
+    "static/css/2.210da38d.chunk.css",
+    "static/js/2.da2f6632.chunk.js",
+    "static/js/main.869a9bcb.chunk.js"
   ]
 }

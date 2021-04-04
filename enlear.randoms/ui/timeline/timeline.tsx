@@ -1,64 +1,36 @@
 import React from 'react';
 import './timeline.css';
 
-export interface TimelineProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface TimeLineItem {
+    day: number,
+    month: string,
+    text: string
+}
 
+export interface TimelineProps extends React.HTMLAttributes<HTMLDivElement> {
+    /**
+     * Timeline Items
+     */
+    items: TimeLineItem[]
 };
 
-export const Timeline = ( {children, ...rest}: TimelineProps ) => {
-  return (
-    <section className= "timeline-wrapper">
-    <div className="middle-line"></div>
+export const Timeline = ({ items, children, ...rest }: TimelineProps) => {
+    return (
+        <section className="timeline-wrapper">
+            <div className="middle-line"></div>
 
-    <div className="box box-top">
-        <div className="date">
-            <p>20</p>
-            <p>DEC</p>
-        </div>
-        <div className="box-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-        </div>
-    </div>
+            { items.map((item, index) => (
+                <div key={index} className="box box-top">
+                    <div className="date">
+                        <p>{item.day}</p>
+                        <p>{item.month}</p>
+                    </div>
+                    <div className="box-content">
+                        <p>{item.text}</p>
+                    </div>
+                </div>
+            ))}
 
-    <div className="box box-bottom">
-        <div className="date">
-            <p>11</p>
-            <p>AUG</p>
-        </div>
-        <div className="box-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-        </div>
-    </div>
-
-    <div className="box box-top">
-        <div className="date">
-            <p>25</p>
-            <p>MAY</p>
-        </div>
-        <div className="box-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-        </div>
-    </div>
-
-    <div className="box box-bottom">
-        <div className="date">
-            <p>13</p>
-            <p>APR</p>
-        </div>
-        <div className="box-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-        </div>
-    </div>
-
-    <div className="box box-top">
-        <div className="date">
-            <p>20</p>
-            <p>FEB</p>
-        </div>
-        <div className="box-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-        </div>
-    </div>
-</section>
-  )
+        </section>
+    )
 };
